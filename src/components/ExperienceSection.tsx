@@ -20,7 +20,7 @@ const timeline = [
     year: "2026",
     category: "WORK EXPERIENCE",
     period: "JUL 2026 – DEC 2026",
-    badge: "upcoming",
+    badge: "present",
     badgeClass: "border-pink/60 text-pink",
     title: "Internship",
     subtitle: "",
@@ -167,7 +167,7 @@ export default function ExperienceSection() {
                       <span
                         className={`text-[10px] font-mono tracking-[0.08em] border px-3 py-1 rounded-full ${item.badgeClass}`}
                       >
-                        {item.badge === "upcoming" && (
+                        {item.badge === "present" && (
                           <span className="inline-block w-1.5 h-1.5 rounded-full bg-pink mr-1.5 align-middle" />
                         )}
                         {item.badge}

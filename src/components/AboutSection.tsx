@@ -43,7 +43,7 @@ export default function AboutSection() {
             className="space-y-6"
           >
             <p className="font-mono text-sm leading-relaxed text-text-primary">
-              I&apos;m a Year 2 <B>Information Systems</B> student at Singapore
+              I&apos;m a Year 3 <B>Information Systems</B> student at Singapore
               Management University, specialising in <B>Business Analytics</B>{" "}
               and <B>FinTech</B>, with a growing interest in how{" "}
               <B>technology and data</B> can shape smarter business and financial
