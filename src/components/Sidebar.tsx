@@ -30,7 +30,7 @@ export default function Sidebar() {
       {/* Social icons */}
       <div className="flex flex-col gap-3 pointer-events-auto">
         <a
-          href="https://www.linkedin.com/in/choung-a-yeun"
+          href="www.linkedin.com/in/a-yeun-choung"
           target="_blank"
           rel="noopener noreferrer"
           className="text-muted hover:text-pink transition-colors"

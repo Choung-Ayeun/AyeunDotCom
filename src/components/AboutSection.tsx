@@ -4,7 +4,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const cards = [
-  { title: "Year 2", subtitle: "SMU · INFORMATION SYSTEMS" },
+  { title: "Year 3", subtitle: "SMU · INFORMATION SYSTEMS" },
   { title: "BA + FinTech", subtitle: "DUAL SPECIALISATION" },
   { title: "Vice-Captain", subtitle: "SMU WOMEN'S FLOORBALL" },
 ];
