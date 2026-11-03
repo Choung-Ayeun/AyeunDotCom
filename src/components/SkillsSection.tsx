@@ -27,7 +27,12 @@ const data = [
   { name: "Pandas", icon: `${DEVICON}/pandas/pandas-original.svg` },
   { name: "Tableau", icon: `${DEVICON}/tableau/tableau-original.svg` },
   { name: "NumPy", icon: `${DEVICON}/numpy/numpy-original.svg` },
-]
+  { name: "Matplotlib", icon: `${DEVICON}/matplotlib/matplotlib-original.svg` },
+  { name: "Seaborn", icon: `${DEVICON}/seaborn/seaborn-original.svg` },
+  { name: "Scikit-learn", icon: `${DEVICON}/scikitlearn/scikitlearn-original.svg` },
+  { name: "Plotly", icon: `${DEVICON}/plotly/plotly-original.svg` },
+  { name: "Jupyter", icon: `${DEVICON}/jupyter/jupyter-original.svg` },
+];
 
 const softSkills = [
   "Leadership",

@@ -6,7 +6,7 @@ import { useRef } from "react";
 const cards = [
   { title: "Year 3", subtitle: "SMU · INFORMATION SYSTEMS" },
   { title: "BA + FinTech", subtitle: "DUAL SPECIALISATION" },
-  { title: "Vice-Captain", subtitle: "SMU WOMEN'S FLOORBALL" },
+  { title: "Captain", subtitle: "SMU WOMEN'S FLOORBALL" },
 ];
 
 function B({ children }: { children: React.ReactNode }) {
@@ -51,7 +51,7 @@ export default function AboutSection() {
             </p>
             <p className="font-mono text-sm leading-relaxed text-text-primary">
               Outside of academics, I play floorball as my side quest, serving
-              as <B>Vice-Captain</B> of my school&apos;s varsity team while also
+              as <B>Captain</B> of my school&apos;s varsity team while also
               competing for a <B>Division 1 club.</B> Beyond sports, I enjoy
               doodling and creating handcrafted projects, which reflect my
               creative side and attention to detail.

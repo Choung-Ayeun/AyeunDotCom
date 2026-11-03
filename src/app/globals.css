@@ -53,6 +53,39 @@ html {
   box-shadow: 0 4px 32px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255,255,255,0.06);
 }
 
+/* Card hover: 50% transparent cream background with black text */
+.glass-card {
+  transition: background-color 0.25s, border-color 0.25s, box-shadow 0.25s;
+}
+
+.glass-card:hover {
+  background: rgb(245, 230, 208);
+}
+
+.glass-card:hover,
+.glass-card:hover *,
+.glass-card:hover input::placeholder,
+.glass-card:hover textarea::placeholder {
+  color: #000 !important;
+}
+
+/* Text that is pink when not hovered stays pink (darker shade for contrast on cream) */
+.glass-card:hover .text-pink,
+.glass-card:hover .text-pink *,
+.glass-card:hover .badge-pink,
+.glass-card:hover .hover\:text-pink:hover {
+  color: #B02A50 !important;
+}
+
+/* Cursive (serif italic) headings become bold on hover so key points stand out */
+.glass-card:hover .font-serif {
+  font-weight: 700;
+}
+
+.glass-card:hover .tag-pill {
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
 /* Skills marquee */
 .marquee-track {
   display: flex;
@@ -110,7 +143,7 @@ html {
 
 /* Skill card pink hover */
 .skill-card {
-  transition: border-color 0.25s, box-shadow 0.25s;
+  transition: background-color 0.25s, border-color 0.25s, box-shadow 0.25s;
 }
 
 .skill-card:hover {
